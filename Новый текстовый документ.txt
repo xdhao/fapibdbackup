@@ -1,0 +1,1 @@
+sudo ansible-playbook RunProject.yml -kK -e '{"REPO": "github.com/xdhao/fastapi-service.git","BRANCH": "Stas", "START_PROJECTS": ["fast-api", "postgres"]}'
